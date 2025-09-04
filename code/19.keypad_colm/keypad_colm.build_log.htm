@@ -1,0 +1,251 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\ec\LPC-2148\code\19.keypad_colm\keypad_colm.uvproj
+Project File Date:  11/28/2024
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling keypad_colm.c...
+linking...
+Program Size: Code=1528 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\keypad_colm.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+"keypad_colm.c" - 0 Error(s), 0 Warning(s).
+ut never used
+        char key_dat;
+keypad_colm.c(30): error:  #67: expected a "}"
+  void delay(int x){
+keypad_colm.c(48): error:  #20: identifier "IO0SEL" is undefined
+        IO0SEL = en;
+keypad_colm.c(56): error:  #20: identifier "IO0SEL" is undefined
+        IO0SEL = en;
+keypad_colm.c(65): error:  #20: identifier "I01SET" is undefined
+                I01SET = (1<<21) | (1<<22) | (1<<23);
+keypad_colm.c(67): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '8';
+keypad_colm.c(68): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '9';
+keypad_colm.c(69): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '/';
+keypad_colm.c(72): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<21);
+keypad_colm.c(75): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '5';
+keypad_colm.c(76): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '6';
+keypad_colm.c(77): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return 'x';
+keypad_colm.c(80): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<22);
+keypad_colm.c(83): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '2';
+keypad_colm.c(84): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '3';
+keypad_colm.c(85): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '-';
+keypad_colm.c(88): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<23);
+keypad_colm.c(91): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '0';
+keypad_colm.c(92): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '=';
+keypad_colm.c(93): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '+';
+keypad_colm.c(95): warning:  #1-D: last line of file ends without a newline
+  }
+keypad_colm.c: 17 warnings, 6 errors
+"keypad_colm.c" - 6 Error(s), 17 Warning(s).
+compiling keypad_colm.c...
+keypad_colm.c(26): error:  #20: identifier "c" is undefined
+                lcd_print(c);
+keypad_colm.c(13): warning:  #550-D: variable "key_dat" was set but never used
+        char key_dat;
+keypad_colm.c(49): error:  #20: identifier "IO0SEL" is undefined
+        IO0SEL = en;
+keypad_colm.c(57): error:  #20: identifier "IO0SEL" is undefined
+        IO0SEL = en;
+keypad_colm.c(66): error:  #20: identifier "I01SET" is undefined
+                I01SET = (1<<21) | (1<<22) | (1<<23);
+keypad_colm.c(68): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '8';
+keypad_colm.c(69): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '9';
+keypad_colm.c(70): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '/';
+keypad_colm.c(73): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<21);
+keypad_colm.c(76): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '5';
+keypad_colm.c(77): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '6';
+keypad_colm.c(78): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return 'x';
+keypad_colm.c(81): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<22);
+keypad_colm.c(84): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '2';
+keypad_colm.c(85): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '3';
+keypad_colm.c(86): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '-';
+keypad_colm.c(89): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<23);
+keypad_colm.c(92): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '0';
+keypad_colm.c(93): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '=';
+keypad_colm.c(94): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '+';
+keypad_colm.c: 16 warnings, 4 errors
+"keypad_colm.c" - 4 Error(s), 16 Warning(s).
+compiling keypad_colm.c...
+keypad_colm.c(49): error:  #20: identifier "IO0SEL" is undefined
+        IO0SEL = en;
+keypad_colm.c(57): error:  #20: identifier "IO0SEL" is undefined
+        IO0SEL = en;
+keypad_colm.c(66): error:  #20: identifier "I01SET" is undefined
+                I01SET = (1<<21) | (1<<22) | (1<<23);
+keypad_colm.c(68): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '8';
+keypad_colm.c(69): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '9';
+keypad_colm.c(70): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '/';
+keypad_colm.c(73): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<21);
+keypad_colm.c(76): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '5';
+keypad_colm.c(77): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '6';
+keypad_colm.c(78): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return 'x';
+keypad_colm.c(81): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<22);
+keypad_colm.c(84): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '2';
+keypad_colm.c(85): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '3';
+keypad_colm.c(86): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '-';
+keypad_colm.c(89): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<23);
+keypad_colm.c(92): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '0';
+keypad_colm.c(93): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '=';
+keypad_colm.c(94): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '+';
+keypad_colm.c: 15 warnings, 3 errors
+"keypad_colm.c" - 3 Error(s), 15 Warning(s).
+compiling keypad_colm.c...
+keypad_colm.c(66): error:  #20: identifier "I01SET" is undefined
+                I01SET = (1<<21) | (1<<22) | (1<<23);
+keypad_colm.c(68): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '8';
+keypad_colm.c(69): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '9';
+keypad_colm.c(70): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '/';
+keypad_colm.c(73): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<21);
+keypad_colm.c(76): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '5';
+keypad_colm.c(77): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '6';
+keypad_colm.c(78): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return 'x';
+keypad_colm.c(81): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<22);
+keypad_colm.c(84): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '2';
+keypad_colm.c(85): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '3';
+keypad_colm.c(86): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '-';
+keypad_colm.c(89): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<23);
+keypad_colm.c(92): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '0';
+keypad_colm.c(93): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '=';
+keypad_colm.c(94): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '+';
+keypad_colm.c: 15 warnings, 1 error
+"keypad_colm.c" - 1 Error(s), 15 Warning(s).
+compiling keypad_colm.c...
+keypad_colm.c(68): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '8';
+keypad_colm.c(69): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '9';
+keypad_colm.c(70): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '/';
+keypad_colm.c(73): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<21);
+keypad_colm.c(74): error:  #20: identifier "I01SET" is undefined
+                I01SET = (1<<20) | (1<<22) | (1<<23);
+keypad_colm.c(76): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '5';
+keypad_colm.c(77): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '6';
+keypad_colm.c(78): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return 'x';
+keypad_colm.c(81): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<22);
+keypad_colm.c(84): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '2';
+keypad_colm.c(85): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '3';
+keypad_colm.c(86): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '-';
+keypad_colm.c(89): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<23);
+keypad_colm.c(92): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '0';
+keypad_colm.c(93): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '=';
+keypad_colm.c(94): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '+';
+keypad_colm.c: 15 warnings, 1 error
+"keypad_colm.c" - 1 Error(s), 15 Warning(s).
+compiling keypad_colm.c...
+keypad_colm.c(68): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '8';
+keypad_colm.c(69): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '9';
+keypad_colm.c(70): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '/';
+keypad_colm.c(73): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<21);
+keypad_colm.c(76): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '5';
+keypad_colm.c(77): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '6';
+keypad_colm.c(78): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return 'x';
+keypad_colm.c(81): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<22);
+keypad_colm.c(84): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '2';
+keypad_colm.c(85): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '3';
+keypad_colm.c(86): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '-';
+keypad_colm.c(89): warning:  #111-D: statement is unreachable
+                IO1CLR = (1<<23);
+keypad_colm.c(92): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<17))) while(!(IO1PIN & (1<<17))); return '0';
+keypad_colm.c(93): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<18))) while(!(IO1PIN & (1<<18))); return '=';
+keypad_colm.c(94): warning:  #111-D: statement is unreachable
+                if(!(IO1PIN & (1<<19))) while(!(IO1PIN & (1<<19))); return '+';
+keypad_colm.c: 15 warnings, 0 errors
+"keypad_colm.c" - 0 Error(s), 15 Warning(s).
+compiling keypad_colm.c...
+"keypad_colm.c" - 0 Error(s), 0 Warning(s).

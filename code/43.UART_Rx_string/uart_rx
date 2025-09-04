@@ -1,0 +1,14 @@
+#include<lpc214x.h>
+
+void uart_init(void);
+void send_msg(unsigned char *);
+void rx_msg(unsigned char *);
+
+int main(){}
+
+void uart_init(void){}
+
+void send_msg(unsigned char *str){}
+
+void rx_msg(unsigned char *str){}
+

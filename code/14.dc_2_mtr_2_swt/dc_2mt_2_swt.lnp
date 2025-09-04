@@ -1,0 +1,6 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\dc_2mt_2_swt.o"
+--nodebug --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\dc_2mt_2_swt.map" -o .\dc_2mt_2_swt.axf

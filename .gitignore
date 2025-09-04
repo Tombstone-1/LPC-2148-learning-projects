@@ -1,0 +1,10 @@
+# unessary files
+*.pdf
+
+# directory
+.metadata/
+/build/
+
+# proteus simulation
+.workspace
+
