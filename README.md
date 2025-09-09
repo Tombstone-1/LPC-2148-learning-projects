@@ -1,7 +1,9 @@
 # LPC-2148-learning-projects
 
 ## 🎓 Overview
-This repository contains my completed work, code samples, and mini-projects from the LPC2148 ARM7-based microcontroller learning course. The course focused on getting hands-on experience with embedded systems programming, peripheral interfacing, and real-time control using the LPC2148 microcontroller from NXP (Philips).
+
+This repository contains my completed work, code samples and mini projects from LPC 2148 ARM7- based microcontroller learning course.
+
 ---
 The course covered both theoretical concepts and practical implementations, using tools like:
  - Keil uVision IDE (for coding and simulation)
