@@ -9,6 +9,7 @@ The course covered both theoretical concepts and practical implementations, usin
  - Proteus / Real hardware setup (for hardware simulation or deployment)
 
 ## 📦 Repository Structure
+``` bash
 lpc2148-learning Projects/
 │
 ├── Code/
@@ -18,6 +19,7 @@ lpc2148-learning Projects/
 ├── Proteus/
 │
 └── README.md
+```
 
 ## 🔧 Tools & Setup
  - **Microcontroller** : LPC-2148(ARM7TDMI-S core)
