@@ -58,7 +58,7 @@ lpc2148-learning Projects/
 
 
 
-## License
+## 📢 License
 - This repository is for educational purposes and is licensed under the MIT License. You are free to use, modify, or extend the code with proper attribution.
 
 - Note: The MIT License applies only to the original code written by Me. Third-party files such as startup.s and vendor-supplied system files are subject to their own licenses.
